@@ -171,4 +171,4 @@ Once your site is live, you can keep improving it with AI:
 
 You've seen how to build and launch a real website without writing code yourself. Gemini writes the code, VS Code holds your files, GitHub stores them, and Vercel puts them online. The key is a clear prompt, reading each step, and asking the AI for complete code when you need it.
 
-Stop just watching and start building. If you want to speed up this process and automate your workflows, check out the premium tools at [Smartivate](https://www.smartivatetech.com).
+Stop just watching and start building. Check out the premium tools for Cold Emails at [Smartivate](https://www.smartivatetech.com).
