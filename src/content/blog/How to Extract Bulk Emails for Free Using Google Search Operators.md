@@ -40,7 +40,7 @@ Everything in this tutorial is free:
 When you search on Google, each result shows a small preview called a **snippet**. Many snippets include an email address that someone published publicly, such as in a profile bio or a contact line.
 
 <!-- SCREENSHOT 1 | file: google-search-snippet-labeled.png | Capture: any Google result with the title, URL and snippet visible. Add labels or arrows for "Title", "URL" and "Snippet". -->
-![A Google search result with the title, URL and snippet labeled](google-search-snippet-labeled.png)
+![A Google search result with the title, URL and snippet labeled](/images/blog/google-search-snippet-labeled.png)
 *Every result has a title, a URL and a snippet. The operators below target each of these parts.*
 
 Search operators let you tell Google exactly where to look and what to look for, so more of your results contain emails. Here are the ones you'll use:
