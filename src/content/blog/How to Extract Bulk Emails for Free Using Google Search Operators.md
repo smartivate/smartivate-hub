@@ -39,7 +39,6 @@ Everything in this tutorial is free:
 
 When you search on Google, each result shows a small preview called a **snippet**. Many snippets include an email address that someone published publicly, such as in a profile bio or a contact line.
 
-<!-- SCREENSHOT 1 | file: google-search-snippet-labeled.png | Capture: any Google result with the title, URL and snippet visible. Add labels or arrows for "Title", "URL" and "Snippet". -->
 ![A Google search result with the title, URL and snippet labeled](/images/blog/google-search-snippet-labeled.png)
 
 *Every result has a title, a URL and a snippet. The operators below target each of these parts.*
@@ -92,8 +91,8 @@ site:facebook.com "gmail.com" intext:Dallas intext:teacher
 
 Now emails start appearing in the snippets.
 
-<!-- SCREENSHOT 2 | file: google-search-term-with-emails.png | Capture: Google results for your final search term, with emails visible in the snippets. BLUR OR COVER the email addresses and names before publishing. -->
-![Google results for a search term with emails appearing in the snippets, with the emails blurred](https://placehold.co/1200x675/0B1F3A/FFFFFF/png?text=SCREENSHOT+2+-+Search+term+and+results+with+emails+blurred)
+![Google results for a search term with emails appearing in the snippets, with the emails blurred](/images/blog/google-search-term-with-emails.png)
+
 *After moving "gmail.com" into quotes, emails start showing up in the snippets (blurred here for privacy).*
 
 ### Step 5: Loosen it up and compare
@@ -122,8 +121,8 @@ The simplest way to get a working search term is to let Google build it for you.
 4. In **site or domain**, enter the platform, such as `facebook.com` or `x.com`.
 5. Leave everything else on the default settings and click **Advanced Search**.
 
-<!-- SCREENSHOT 3 | file: google-advanced-search-form.png | Capture: the Advanced Search page with the three fields filled in. Add numbered arrows (1, 2, 3) on the fields. -->
-![Google Advanced Search form with location, email provider and site fields filled in](https://placehold.co/1200x675/0B1F3A/FFFFFF/png?text=SCREENSHOT+3+-+Google+Advanced+Search+form+filled+in)
+![Google Advanced Search form with location, email provider and site fields filled in](/images/blog/google-advanced-search-form.png)
+
 *Fill in the three fields, then click Advanced Search.*
 
 Google returns results and shows you the search term it created in the search box. In the demo, this method produced a lot of emails with very little effort.
@@ -142,8 +141,8 @@ site:linkedin.com "mailto:" Dallas teacher
 
 The results in the demo included company email addresses from a variety of businesses. You can try your search with and without the `site:` filter to see which gives you better results.
 
-<!-- SCREENSHOT 4 | file: mailto-search-results.png | Capture: Google results for a "mailto:" search showing company emails. BLUR OR COVER the email addresses before publishing. -->
-![Google results for a mailto search showing business email addresses, with the emails blurred](https://placehold.co/1200x675/0B1F3A/FFFFFF/png?text=SCREENSHOT+4+-+mailto+search+results+with+emails+blurred)
+![Google results for a mailto search showing business email addresses, with the emails blurred](/images/blog/mailto-search-results.png)
+
 *Searching for "mailto:" surfaces company emails published on websites (blurred here for privacy).*
 
 ## Collect the Results
@@ -168,8 +167,8 @@ Now you have a large block of raw text. Let a free extractor pull out only the e
 4. Set the **separator** to **new line**, so each email lands on its own line.
 5. Click **Extract**.
 
-<!-- SCREENSHOT 5 | file: lite14-email-extractor.png | Capture: Lite14 with pasted raw data, the separator set to "new line", and the extracted list. BLUR OR COVER the emails before publishing. -->
-![Lite14 email extractor with raw data pasted, the separator set to new line, and the extracted emails listed](https://placehold.co/1200x675/0B1F3A/FFFFFF/png?text=SCREENSHOT+5+-+Lite14+extractor+with+separator+set+to+new+line)
+![Lite14 email extractor with raw data pasted, the separator set to new line, and the extracted emails listed](/images/blog/lite14-email-extractor.png)
+
 *Paste the raw data, choose "new line" as the separator, and click Extract.*
 
 In the demo, this produced a list of 34 emails from the collected pages.
@@ -187,8 +186,8 @@ Learn the pattern of the mistakes, then fix them in bulk with find and replace i
 3. In **Find what**, type `.read`.
 4. Leave **Replace with** empty and click **Replace All**.
 
-<!-- SCREENSHOT 6 | file: notepad-replace-dialog.png | Capture: the Notepad Replace window with ".read" in "Find what" and "Replace with" empty. -->
-![Notepad Replace window with .read typed in the Find what box and Replace with left empty](https://placehold.co/1200x675/0B1F3A/FFFFFF/png?text=SCREENSHOT+6+-+Notepad+Replace+dialog+with+.read)
+![Notepad Replace window with .read typed in the Find what box and Replace with left empty](/images/blog/notepad-replace-dialog.png)
+
 *Find ".read", leave "Replace with" empty, then click Replace All.*
 
 ### Remove the extra full stop after ".com"
@@ -203,8 +202,8 @@ Learn the pattern of the mistakes, then fix them in bulk with find and replace i
 
 If you use Notepad++ (a free editor), open **Find and Replace**, choose **Regular expression**, search for `\.$` and replace it with nothing. This removes only a full stop at the very end of a line, so it leaves `.com.ng` addresses intact.
 
-<!-- SCREENSHOT 7 (optional) | file: email-list-before-after.png | Capture: a side-by-side of the list before and after cleaning (errors highlighted on the left). BLUR OR COVER the emails before publishing. -->
-![Email list before and after cleaning, with the errors highlighted on the left and the fixed list on the right](https://placehold.co/1200x675/0B1F3A/FFFFFF/png?text=SCREENSHOT+7+-+Email+list+before+and+after+cleaning)
+![Email list before and after cleaning, with the errors highlighted on the left and the fixed list on the right](/images/blog/email-list-before-after.png)
+
 *Before (left) and after (right): the stray dots and ".read" endings are gone.*
 
 ## Verify Before You Send
